@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Permanent+Marker&display=swap');
+
+body {
+  background-color: darkseagreen;
+}
+
+.container {
+  border-radius: 65px;
+  /* margin: 5% auto;
+  padding: 5% auto; */
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  background-color: azure;
+  /* text-align: center; */
+  width: 75%;
+  margin: 4% auto;
+  padding: 3% auto;
+}
+
+.bio-text {
+  display:inline-block;
+}
+
+.img-circle {
+  border-radius:50%;
+  box-shadow: 7px 7px 10px black;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: magenta;
+}
+
+a:hover{
+  color: red;
+  /* font-size: large; */
+  font-weight: bold;
+}
+
+p {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: monospace;
+  text-align: justify;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+h1 {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Cinzel', serif;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: justify;
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+.bio-text {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.card-coding, .card-gaming {
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
