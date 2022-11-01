@@ -11,21 +11,49 @@ body {
   width: 75%;
   margin: 1rem auto;
   padding: 1rem auto;
-  /* border-style: solid;
-  border-color: black; */
+
 }
 
 .intro-container {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
-  border-style: dashed;
-  border-color: black;
+  /* border-bottom: 0.1rem; */
+  border-bottom-style: double;
 }
 
 .intro-text {
-  border-style: double;
-  border-color: red;
+  /* border-style: double;
+  border-color: red; */
+}
+
+section {
+  padding-left: 1rem;
+}
+
+
+.edu-place-year {
+  text-align:left;
+}
+
+.skills-container {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3.5rem;
+}
+
+.skill {
+  width: 3rem;
+  /* border-style: solid; */
+}
+
+.skill-img {
+  width: 100%;
+}
+
+.skill-name {
+  text-align: center;
+  margin:0;
 }
 
 .bio-text {
@@ -63,7 +91,7 @@ a:hover{
 p {
   /* font-family: 'Courier New', Courier, monospace; */
   font-family: monospace;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 h1 {
@@ -75,7 +103,7 @@ h1 {
 h2 {
   text-decoration: underline;
   text-align: justify;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Cinzel', serif;
   padding-left: 10px;
   margin-left: 10px;
   padding-right: 10px;
@@ -83,7 +111,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
 }
 
 
